@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex Matcher</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+    <img src="{{ url_for('static', filename='images/my_logo_black-removebg.png') }}" alt="My Logo" class="center-right-image">
+
+    <div class="container">
+        <!-- <h2>Regex Matcher</h2> -->
+        <form action="/" method="post">
+            <h2>Connect with Me:-
+            <a href="https://www.linkedin.com/in/chaudharyajay" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Azay961" target="_blank">GitHub</a><br>
+            </h2>
+
+            <label for="regex">Regular Expression</label><br>
+            <!-- id : for styling in css, name : for identifying in backend -->
+            <input type="text" id="regex" name="regex" required value = {{regex}}><br>
+            <label for="test_string">Test String</label><br>
+            <textarea id="test_string" name="test_string" required>{{test_string}}</textarea><br>
+
+            <input type="submit" value="Submit">
+        </form>
+        
+        {% if matches %}
+        <h3>Matched Strings: {{ matches|length }}</h3>
+        
+        {% endif %}
+        <div class="result">{{ highlighted|safe }}</div>
+    </div>
+    
+</body>
+</html>

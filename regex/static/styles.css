@@ -1,0 +1,110 @@
+body {
+    background-color: lightblue;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+
+  /* Styling the container */
+  .container {
+    width: 50%;
+    height: 90vh;
+    margin-left: 100px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+}
+
+/* Label styling */
+label {
+    font-size: 16px;
+    font-weight: bold;
+    /* display: block; */
+    color: #333;
+}
+
+/* Input field and textarea styling */
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+/* Textarea specific styling */
+textarea {
+    height: 250px;
+    resize: vertical;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* styling class */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.result {
+    /* margin-top: 20px; */
+    /* padding: 10px; */
+    /* background-color: #e2e3e5; */
+    /* border-radius: 4px; */
+    /* border: 1px solid #ccc; */
+    white-space: pre-wrap;
+}
+
+.center-right-image {
+    position: absolute;
+    right: 50px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 500px; 
+    height: auto; 
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container a {
+    text-decoration: none;
+    color: #0077b5; /* LinkedIn color */
+    font-size: 18px;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.connect-section a:hover {
+    color: #005582; /* Darker shade on hover */
+}
+
+.github-link {
+    color: #333; /* GitHub color */
+}
+
+.github-link:hover {
+    color: #6cc24a; /* GitHub hover color */
+}
