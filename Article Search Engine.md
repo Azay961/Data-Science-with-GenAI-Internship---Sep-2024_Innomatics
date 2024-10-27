@@ -1,5 +1,5 @@
 # Hacking the System Design: How Search Engines Understand and Deliver Results
-[Intro](https://drive.google.com/file/d/1I-MFntejqeEvw-Inowv117JibsWqwaN3/view?usp=drive_link)
+![search engine](https://github.com/user-attachments/assets/d9a1c765-55c0-4188-a893-6e0a7a594d8c)
 
 Search engines have become essential tools in our digital lives, effortlessly turning complex questions into clear answers within seconds. Whether we’re seeking a quick fact, troubleshooting a problem, or exploring a new topic, these platforms are our go-to for instant information. But behind every swift answer lies a complex system designed to analyze and sort through an enormous web of data, surfacing the most relevant results.
 
