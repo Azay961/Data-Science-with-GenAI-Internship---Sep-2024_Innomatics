@@ -1,4 +1,5 @@
 # Hacking the System Design: How Search Engines Understand and Deliver Results
+[Intro](https://drive.google.com/file/d/1I-MFntejqeEvw-Inowv117JibsWqwaN3/view?usp=drive_link)
 
 Search engines have become essential tools in our digital lives, effortlessly turning complex questions into clear answers within seconds. Whether we’re seeking a quick fact, troubleshooting a problem, or exploring a new topic, these platforms are our go-to for instant information. But behind every swift answer lies a complex system designed to analyze and sort through an enormous web of data, surfacing the most relevant results.
 
@@ -22,6 +23,7 @@ Together, distance metrics allow search engines to determine document similarity
 Query rewriting and understanding play a pivotal role in enhancing search engine accuracy by interpreting and modifying user queries for better matches with indexed documents.
 
 ### Overview of Workflow of Search Engine
+[Workflow of Search Engine](https://drive.google.com/file/d/1YEIuUR8cJfO6lLf_7Jr5__YcCyJiroEL/view?usp=drive_link)
 
 1. **Query Rewriting** is primarily focused on correcting spelling errors in the user’s query to ensure accurate matching with relevant documents in the database. Additionally, it may rephrase or adjust the query to align with terminology commonly used in these documents.  
    - *Example*: If a user searches for “wrork-frome-home,” the system would correct it to “work-from-home” and may further rewrite it as “remote work.” This improves the search algorithm’s ability to retrieve contextually relevant documents.
