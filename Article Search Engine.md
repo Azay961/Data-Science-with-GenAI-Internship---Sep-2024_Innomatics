@@ -23,7 +23,8 @@ Together, distance metrics allow search engines to determine document similarity
 Query rewriting and understanding play a pivotal role in enhancing search engine accuracy by interpreting and modifying user queries for better matches with indexed documents.
 
 ### Overview of Workflow of Search Engine
-[Workflow of Search Engine](https://drive.google.com/file/d/1YEIuUR8cJfO6lLf_7Jr5__YcCyJiroEL/view?usp=drive_link)
+![Data Flow Diagram Whiteboard in Dark Yellow Light Yellow Black Monochromatic Style](https://github.com/user-attachments/assets/2f468ddf-99a6-4b96-813e-1b78aca34e9f)
+
 
 1. **Query Rewriting** is primarily focused on correcting spelling errors in the user’s query to ensure accurate matching with relevant documents in the database. Additionally, it may rephrase or adjust the query to align with terminology commonly used in these documents.  
    - *Example*: If a user searches for “wrork-frome-home,” the system would correct it to “work-from-home” and may further rewrite it as “remote work.” This improves the search algorithm’s ability to retrieve contextually relevant documents.
