@@ -1,5 +1,7 @@
 # Evolution of Language Representation Techniques: A Journey from BoW to GPT
-https://github.com/user-attachments/assets/3554e64d-6be9-4d80-ad31-293243becc6c
+
+![Evolution of Language Representation Techniques](https://github.com/user-attachments/assets/3554e64d-6be9-4d80-ad31-293243becc6c)
+
 ## Introduction
 
 In the fast-evolving world of Natural Language Processing (NLP), the way machines interpret human language has seen a remarkable transformation. From early methods like Bag of Words (BoW) to advanced models such as GPT (Generative Pre-trained Transformer), the progress reflects an incredible improvement in understanding and generating human language. In this article, we’ll explore the core concepts behind language representation and vectorization techniques, discuss some of the main techniques, and look at the advancements that have led us from Word2Vec to BERT and GPT.
