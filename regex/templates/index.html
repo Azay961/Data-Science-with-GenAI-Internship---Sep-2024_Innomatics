@@ -28,7 +28,8 @@
         
         {% if matches %}
         <h3>Matched Strings: {{ matches|length }}</h3>
-        
+        {% else %}
+        <h3>Matched Strings: 0</h3>
         {% endif %}
         <div class="result">{{ highlighted|safe }}</div>
     </div>

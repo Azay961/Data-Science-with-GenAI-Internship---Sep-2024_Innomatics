@@ -166,3 +166,5 @@ cython_debug/
 Last Mile Delivery Analysis/
 Diamond Price prediction.ipynb
 .env_regex
+innomatics.pem
+Image Search Engine

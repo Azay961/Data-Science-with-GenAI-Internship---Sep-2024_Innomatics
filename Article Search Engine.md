@@ -1,5 +1,6 @@
 # Hacking the System Design: How Search Engines Understand and Deliver Results
 
+
 Search engines have become essential tools in our digital lives, effortlessly turning complex questions into clear answers within seconds. Whether we’re seeking a quick fact, troubleshooting a problem, or exploring a new topic, these platforms are our go-to for instant information. But behind every swift answer lies a complex system designed to analyze and sort through an enormous web of data, surfacing the most relevant results.
 
 In this article, we’ll take a closer look at what goes on behind the scenes in a search engine. From crawling and indexing to ranking results, I’ll break down the core processes that make it possible for these systems to understand our needs and deliver precise answers. Dive in to uncover the mechanics of the digital tools we rely on every day.
