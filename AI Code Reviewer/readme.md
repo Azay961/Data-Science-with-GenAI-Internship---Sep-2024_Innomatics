@@ -9,3 +9,4 @@ AI Code Reviewer is a Streamlit-based application powered by Google's Gemini AI 
 - **Actionable Feedback**: Get specific, meaningful suggestions to enhance code quality.
 - **Highlights of Good Practices**: Recognize well-written code and explain why.
 
+[Demo Video](https://youtu.be/vHj9vO8U708)
